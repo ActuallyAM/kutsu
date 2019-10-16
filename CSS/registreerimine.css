@@ -1,0 +1,53 @@
+body {
+    background: url('http://localhost:8880/kutsu/Pictures/reg.jpg');
+}
+
+.registreerimine {
+    width: -webkit-fill-available;
+    height: 464px;
+    margin: 0px 165px 0px 165px;
+}
+
+
+.main {
+    position: inherit;
+    margin: 50px 0px 0px 0px;
+    height: 420px;
+}
+
+#marg_col {
+    margin-top: 20px;
+}
+#reg_vorm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#form_paigutus {
+    margin: 0px 40px 0px 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.form-control {
+    opacity: 0.9;
+}
+#reg_btn {
+    background: #FF7512;
+    border-radius: 10px;
+    color: white;
+    padding: 7px 40px 7px 40px;
+    font-size: 18px;
+    margin: 20px 0px 0px 0px;
+}
+#reg_btn:hover {
+    background: #ffffff;
+    color: black;
+}
+
+#kiisu_img {
+    display: flex;
+    justify-content: center;
+}

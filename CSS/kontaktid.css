@@ -1,0 +1,53 @@
+body {
+    background: url("http://localhost:8880/kutsu/Pictures/kontakt_bg.jpg");
+}
+
+#border_bx:hover {
+    border: 3px solid #FF7512;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+}
+
+#h3_margin {
+    margin-left: 35px;
+}
+
+#kontakt_form {
+    min-height: 464px;
+    margin: 0px 165px 0px 165px;
+    width: -webkit-fill-available;
+}
+
+.saada_kiri_btn {
+    position: absolute;
+    right: 75px;
+}
+
+#saada_btn {
+    background: #FF7512;
+    border-radius: 10px;
+    color: white;
+    padding: 7px 25px 7px 25px;
+    font-size: 18px;
+}
+
+#saada_btn:hover {
+    background: #ffffff;
+    color: black;
+}
+
+input#exampleFormControlInput1 {
+    opacity: 0.9;
+}
+
+textarea#exampleFormControlTextarea1 {
+    opacity: 0.9;
+}
+
+#margin_pilt {
+    margin-top: 750px;
+}
+
+.main {
+    margin-bottom: 125px;
+}

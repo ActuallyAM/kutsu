@@ -1,0 +1,25 @@
+#meist_tekst {
+    padding: 20px 20px 0px 20px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+#meist_tekst_keskel {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin: 100px 0px 50px 0px;
+}
+
+.ourvideo {
+    min-height: 200px;
+    margin: 0px 300px 0px 300px;
+}
+
+
+#mommik {
+    display: flex;
+    justify-content: center;
+}

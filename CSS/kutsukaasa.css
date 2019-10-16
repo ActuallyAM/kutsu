@@ -1,0 +1,209 @@
+body {
+    background-color: #dadff5;
+    font-family: 'Roboto', sans-serif;
+    background: #ffd5d5;
+}
+
+
+.header {
+    border: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu_bottom {
+    display: flex;
+    align-content: space-between;
+    padding-left: 35px;
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 7px;
+    margin-right: 40px;
+}
+
+a:hover {
+    color: #dadff5;
+    text-decoration: none;
+}
+
+#signin {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 3px 20px 3px 20px;
+    position: absolute;
+    right: 100px;
+}
+
+#signin:hover{
+    background-color: #FF7512;
+    color: white;
+}
+
+#registreeru {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 3px 20px 3px 20px;
+    margin: 5px 0px 0px 5px;
+    position: absolute;
+    right: 15px;
+
+}
+
+#registreeru:hover{
+    background-color: #FF7512;
+    color: white;
+}
+.main {
+    position: inherit;
+    margin: 100px 0px 35px 0px;
+}
+
+.ourvideo {
+    width: -webkit-fill-available;
+    min-height: 464px;
+    /* background: rgba(126, 194, 178, 0.1); */
+    margin: 0px 165px 0px 165px;
+}
+
+
+#kutsudega {
+    display: flex;
+    align-self: flex-end;
+    margin: 0px 0px 100px 105px;
+    flex-direction: column;
+}
+
+#kutsukesed {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container, .row {
+    padding-left: 15px;
+}
+.tutvustus {
+    margin: 50px 165px 0px 165px;
+    background-color:rgba(126, 194, 178, 0.1);
+    padding: 15px 0px 0px 0px;
+}
+.animate-right{
+    position:relative;
+    animation:animateright 0.8s
+}
+@keyframes animateright
+{from{right:-600px;opacity:0}
+to{right:0;opacity:1}}
+
+.animate-left{
+    position:relative;
+    animation:animateleft 0.8s
+}
+@keyframes animateleft
+{from{left:-600px;opacity:0}
+to{left:0;opacity:1}}
+
+.fade {
+    opacity: 1;
+  }
+
+#loomapoed {
+    float: right;
+    margin: 20px 165px 0px 0px;
+}
+#park {
+    margin: 10px 0px 0px 30px;
+}
+#poed {
+    margin: 10px 30px 0px 0px;
+}
+
+#poed_tekst {
+    margin: 10px 0px 0px 0px;
+}
+
+.h4, h4 {
+    font-size: 16px;
+}
+
+#t-btn {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #55F495;
+    border-radius: 25px;
+    padding: 1px 45px 1px 45px;
+    margin: 5px 0px 0px 5px;
+}
+
+#t-btn:hover {
+    background-color: #379C5F;
+    color: white;
+}
+#map-btn {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    background-color: #55F495;
+    border-radius: 25px;
+    padding: 10px 75px 10px 75px;
+    margin: 5px 0px 0px 5px;
+}
+
+#map-btn:hover {
+    background-color: #379C5F;
+    color: white;
+}
+
+#greenish {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    
+}
+.footer {
+    border: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    bottom: 0;
+    padding-top: 15px;
+}
+
+nav ul a {
+    color: inherit;
+    text-decoration: none;
+}
+nav ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style:none;
+}
