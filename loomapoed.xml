@@ -1,0 +1,68 @@
+<markers>
+<marker id="1" name="Pet City Tabasalu" address="Rannamõisa tee 8, 13516 Tallinn" lat="59.4286942" lng="24.6250489" type="loomapoed"/>
+<marker id="2" name="Pet City Rocca al Mare" address="Paldiski maantee 102, 13522 Tallinn" lat="59.4269824" lng="24.6539227" type="loomapoed"/>
+<marker id="3" name="Pet City Balti jaama turg" address="Kopli 1, 10412 Tallinn" lat="59.4410607" lng="24.7362598" type="loomapoed"/>
+<marker id="4" name="Pet City Nautica keskus" address="Ahtri 9, Kesklinn, Kesklinna, 10151 Harju maakond" lat="59.4411426" lng="24.762221" type="loomapoed"/>
+<marker id="5" name="Pet City Laagri Selveri keskus" address="Pärnu maantee 554, 10916 Tallinn" lat="59.3530273" lng="24.6281849" type="loomapoed"/>
+<marker id="6" name="Pet City Tähesaju Prisma keskus" address="Mustakivi tee 17, 13917 Tallinn" lat="59.4432652" lng="24.8626218" type="loomapoed"/>
+<marker id="7" name="Zoo Planet Magistrali" address="Sõpruse puiestee 201/203, 13411 Tallinn" lat="59.4015288" lng="24.6976894" type="loomapoed"/>
+<marker id="8" name="Zoo Planet Mustika keskus" address="A. H. Tammsaare tee 116, 12915 Tallinn" lat="59.4107198" lng="24.6829393" type="loomapoed"/>
+<marker id="9" name="Zoo Planet" address="Paepargi 57, 11414 Tallinn" lat="59.4352927" lng="24.8111369" type="loomapoed"/>
+<marker id="10" name="Urr &amp; Nurr Lemmikloomapood - Viimsi" address="Sõpruse tee 15, Viimsi, 74001 Harju maakond" lat="59.5046608" lng="24.8269109" type="loomapoed"/>
+<marker id="11" name="KIKA Järve Selver" address="Pärnu maantee 238, 11624 Tallinn" lat="59.3926946" lng="24.7206613" type="loomapoed"/>
+<marker id="12" name="KIKA Tondi Selveris" address="A. H. Tammsaare tee 62, 11316 Tallinn" lat="59.4033658" lng="24.7147271" type="loomapoed"/>
+<marker id="13" name="KIKA Magistrali keskuses" address="Sõpruse puiestee 201/203, 13411 Tallinn" lat="59.4015966" lng="24.6975296" type="loomapoed"/>
+<marker id="14" name="KIKA MUSTIKA KESKUS" address="Karjavälja 4, 12918 Tallinn" lat="59.4105005" lng="24.6836485" type="loomapoed"/>
+<marker id="15" name="KIKA ÕISMÄE MAXIMA XX" address="Õismäe tee 46, 13512 Tallinn" lat="59.4115381" lng="24.6471365" type="loomapoed"/>
+<marker id="16" name="KIKA HAABERSTI MAXIMA XXX" address="Ehitajate tee 148, 13517 Tallinn" lat="59.4211951" lng="24.6508031" type="loomapoed"/>
+<marker id="17" name="KIKA MERIMETSA SELVER" address="Paldiski maantee 56, 10617 Tallinn" lat="59.4301547" lng="24.6976506" type="loomapoed"/>
+<marker id="18" name="KIKA KRISTIINE KESKUS" address="Endla 45, 10615 Tallinn" lat="59.4269563" lng="24.7226627" type="loomapoed"/>
+<marker id="19" name="KIKA ŠTROOMI KESKUS" address="Tuulemaa 20, 10316 Tallinn" lat="59.447892" lng="24.6924775" type="loomapoed"/>
+<marker id="20" name="KIKA ARSENALI KESKUS" address="Erika 14, 10416 Tallinn" lat="59.4514536" lng="24.7165327" type="loomapoed"/>
+<marker id="21" name="KIKA HAABERSTI" address="Haabersti 1, 13516 Tallinn" lat="59.4249413" lng="24.6437842" type="loomapoed"/>
+<marker id="22" name="KIKA SMUULI MAXIMA XX" address="J. Smuuli tee 9, 13629 Tallinn" lat="59.4433693" lng="24.8231935" type="loomapoed"/>
+<marker id="23" name="KIKA PAEPARGI MAXIMA XX" address="Paepargi 57, 11417 Tallinn" lat="59.4351235" lng="24.8111957" type="loomapoed"/>
+<marker id="24" name="KIKA T1 MALL OF TALLINN" address="Peterburi tee 2, 11415 Tallinn" lat="59.4237968" lng="24.788744" type="loomapoed"/>
+<marker id="25" name="KIKA PEETRI SELVER" address="Veesaare tee 2, 75312 Peetri" lat="59.4023965" lng="24.8109265" type="loomapoed"/>
+<marker id="26" name="KIKA LASNAMÄE CENTRUM" address="Mustakivi tee 13, 13619 Tallinn" lat="59.4404589" lng="24.8653858" type="loomapoed"/>
+<marker id="27" name="KIKA Mustakivi Selver" address="Mustakivi tee 3a, 13619 Tallinn" lat="59.4376332" lng="24.8703026" type="loomapoed"/>
+<marker id="28" name="KIKA KÄRBERI KESKUS" address="K. Kärberi 20, 13812 Tallinn" lat="59.4453838" lng="24.8828777" type="loomapoed"/>
+<marker id="29" name="KIKA ÜMERA KESKUS" address="Laagna tee 80, 10115 Tallinn" lat="59.4443462" lng="24.889341" type="loomapoed"/>
+<marker id="30" name="KIKA LINNAMÄE MAXIMA XX" address="Linnamäe tee 57, 13911 Tallinn" lat="59.4499479" lng="24.8798343" type="loomapoed"/>
+<marker id="31" name="KIKA PÄRNAMÄE KESKUS" address="Pärnamäe tee 4a, 74008 Laiaküla" lat="59.4619814" lng="24.9052529" type="loomapoed"/>
+<marker id="32" name="KIKA MAARDU MAXIMA XX" address="Keemikute 2, 74116 Maardu" lat="59.4733848" lng="25.0190716" type="loomapoed"/>
+<marker id="33" name="KIKA MUUGA MAXIMA X" address="Muuga tee 108, 74117 Muuga" lat="59.4739623" lng="24.9160827" type="loomapoed"/>
+<marker id="34" name="BOSSE Miiduranna Konsum" address="Ranna tee 46a, 12111 Tallinn" lat="59.4970747" lng="24.8289553" type="loomapoed"/>
+<marker id="35" name="BOSSE Ülemiste keskus" address="Suur-Sõjamäe 4, 11415 Tallinn" lat="59.4219025" lng="24.7942864" type="loomapoed"/>
+<marker id="36" name="BOSSE Viru Keskus" address="Viru väljak 4/6, 10111 Tallinn" lat="59.4365008" lng="24.755791" type="loomapoed"/>
+<marker id="37" name="BOSSE HAABERSTI keskus" address="Haabersti 1, 13516 Tallinn" lat="59.4249413" lng="24.6437842" type="loomapoed"/>
+<marker id="38" name="Kesklinna ZOO maailm" address="A. Lauteri 8, 10114 Tallinn" lat="59.4311055" lng="24.7573445" type="loomapoed"/>
+<marker id="39" name="Mustamäe Zoo maailm" address="Sõpruse puiestee 222, 13412 Tallinn" lat="59.4008957" lng="24.6933037" type="loomapoed"/>
+<marker id="40" name="Ida Keskus Zoo maailm" address="Punane 14, 13619 Tallinn" lat="59.4316741" lng="24.8217915" type="loomapoed"/>
+<marker id="41" name="MyPet lemmikloomapood" address="Kose tee 4b, 11911 Tallinn" lat="59.4623072" lng="24.8282911" type="loomapoed"/>
+<marker id="42" name="MyPet lemmikloomapood" address="Pärnamäe tee 4a, 74008 Laiaküla" lat="59.4619814" lng="24.9052529" type="loomapoed"/>
+<marker id="43" name="Caramira Raudalu Konsum" address="Viljandi maantee 41a, 11218 Tallinn" lat="59.3661486" lng="24.760096" type="loomapoed"/>
+<marker id="44" name="Caramira Peterburi tee Rimi" address="Peterburi tee 98, 11415 Tallinn" lat="59.4408249" lng="24.8993564" type="loomapoed"/>
+<marker id="45" name="Caramira Läänemere Selver" address="Läänemere tee 30, 13913 Tallinn" lat="59.4527827" lng="24.8752699" type="loomapoed"/>
+<marker id="46" name="Caramira Hiiu Ärikeskus" address="Pärnu maantee 386, 11612 Tallinn" lat="59.3827564" lng="24.6662119" type="loomapoed"/>
+<marker id="47" name="Caramira Laagri Maksimarket" address="Pärnu maantee 558a, 76401 Laagri" lat="59.3411345" lng="24.6127846" type="loomapoed"/>
+<marker id="48" name="Royal Canin Estonia OÜ" address="Metalli 3, 10615 Tallinn" lat="59.4282039" lng="24.7079716" type="loomapoed"/>
+<marker id="49" name="Pets24.ee" address="Kiisa 8b, 11313 Tallinn" lat="59.4123493" lng="24.7412183" type="loomapoed"/>
+<marker id="50" name="Sikupilli lemmikloomapood" address="Tartu maantee 87, 11412 Tallinn" lat="59.4264904" lng="24.7831177" type="loomapoed"/>
+<marker id="51" name="Akvaarium OÜ" address="Tartu maantee 35/J.Kunderi 8A, 10115 Tallinn" lat="59.433364" lng="24.7653179" type="loomapoed"/>
+<marker id="52" name="OSSU Lemmikloomapood" address="Pärnu maantee 234, 11314 Tallinn" lat="59.3934731" lng="24.720532" type="loomapoed"/>
+<marker id="53" name="OÜ Skyli" address="Kuuse 29-8, Laagri, 76401 Harju maakond" lat="59.3493603" lng="24.6233625" type="loomapoed"/>
+<marker id="54" name="Urr&amp;Nurr Lemmikloomapood - Mustamäe" address="A. H. Tammsaare tee 104a, 12913 Tallinn" lat="59.4085881" lng="24.6885599" type="loomapoed"/>
+<marker id="55" name="Palmar OÜ" address="Kadaka tee 4, 10621 Tallinn" lat="59.4158004" lng="24.6852105" type="loomapoed"/>
+<marker id="56" name="Caramira - Õnneliku lemmiklooma keskus" address="Suur-Sõjamäe 36, 11415 Tallinn" lat="59.4199107" lng="24.8271978" type="loomapoed"/>
+<marker id="57" name="Siolent Pet Products" address="Katusepapi 4, 11412 Tallinn" lat="59.427581" lng="24.7824847" type="loomapoed"/>
+<marker id="58" name="RoyalPetShop.ee" address="Asunduse 15-1, 11416 Tallinn" lat="59.4306869" lng="24.7905279" type="loomapoed"/>
+<marker id="59" name="SNOB loomakauplus" address="Suur-Karja 21, 10140 Tallinn" lat="59.4350562" lng="24.7470245" type="loomapoed"/>
+<marker id="60" name="Nosterm Pet Lemmikloomapood" address="Tulbi 1, 10612 Tallinn" lat="59.4334442" lng="24.7200314" type="loomapoed"/>
+<marker id="61" name="Petmarket Laopood" address="Ehitajate tee 110, 12915 Tallinn" lat="59.4132702" lng="24.66376" type="loomapoed"/>
+<marker id="" name="" address="" lat="" lng="" type="loomapoed"/>
+<marker id="" name="" address="" lat="" lng="" type="loomapoed"/>
+<marker id="" name="" address="" lat="" lng="" type="loomapoed"/>
+<marker id="" name="" address="" lat="" lng="" type="loomapoed"/>
+
+</markers>

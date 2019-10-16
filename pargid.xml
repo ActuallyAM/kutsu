@@ -1,0 +1,20 @@
+<markers>
+        <marker id="1" name="Tiigiveski park " address="Juhkentali 10,10138" lat="59.427584" lng="24.7588215" type="park"/>
+        <marker id="2" name="Politseiaed" address="Kunderi ja Pronksi tänavate nurk" lat="59.4339403" lng="24.7662388" type="park"/>
+        <marker id="3" name="Toompark" address="Toompuiestee 24a (Falgi tee poolne ots)" lat="59.4360895" lng="24.7349791" type="park"/>
+        <marker id="4" name="Lilleküla park" address="Asula 4c ja Lilleküla raudteejaama vahel (A le Coq Arena kõrval)" lat="59.4237405" lng="24.7291204" type="park"/>
+        <marker id="6" name="Karjamaa park" address="Karjamaa 5g,101416" lat="59.4524012" lng="24.7111949" type="park"/>
+        <marker id="7" name="Tondimõisa park" address="Nõmme tee 107" lat="59.4040138" lng="24.7088862" type="park"/>
+        <marker id="8" name="Cederhilmi park" address="Mooni 30, 10615" lat="59.4264387" lng="24.710569" type="park"/>
+        <marker id="8" name="Ehitajate tee koerte jalutusplats" address="J. Sütiste tee, 13414" lat="59.3963003" lng="24.6757704" type="park"/>
+        <marker id="8" name="Tondi Mõisapargi promendaad" address="Siili,11316" lat="59.4043165" lng="24.7085242" type="park"/>
+        <marker id="8" name="Männiku koerte jalutusplats" address="Männiku, 11212" lat="59.3753362" lng="24.7121868" type="park"/>
+        <marker id="8" name="Liikuri koerte mänguväljak" address="Liikuri 56, 13618" lat="59.4421202" lng="24.8243393" type="park"/>
+        <marker id="8" name="Vormsi koerte jalutusplats" address="Vormsi 5, 12014" lat="59.4545777" lng="24.8739168" type="park"/>
+        <marker id="9" name="Õismäe tiigi ümbruse pargiala" address="Õismäe tee 22" lat="59.4152686" lng="24.6441103" type="park"/>
+        <marker id="9" name="Männi park" address="Sõpruse pst 252, 13414" lat="59.3993469" lng="24.6758802" type="park"/>
+        <marker id="9" name="Kadaka park" address="" lat="59.4062539" lng="24.6625219" type="park"/>
+        <marker id="9" name="Kivila park" address="Kivila 9, 13917" lat="59.4469583" lng="24.868123" type="park"/>
+        <marker id="9" name="Pae park" address="Paepargi 21, 11414" lat="59.4332567" lng="24.8029423" type="park"/>
+
+</markers>

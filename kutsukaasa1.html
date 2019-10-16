@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kutsukaasa - Avaleht</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+        body {
+    background-color: #dadff5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    border: none;
+    color: #fff;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#menu_bottom {
+    display: flex;
+    align-content: space-between;
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 7px;
+    margin-right: 40px;
+}
+
+a:hover {
+    color: #dadff5;
+    text-decoration: none;
+}
+
+#signin {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 7px 25px 7px 25px;
+}
+
+#signin:hover{
+    background-color: #FF7512;
+    color: white;
+}
+
+#registreeru {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    background-color: #FF7512;
+    border-radius: 25px;
+    padding: 7px 25px 7px 25px;
+    margin: 5px 0px 0px 5px;
+}
+
+#registreeru:hover{
+    background-color: white;
+    color: black;
+}
+.main {
+    position: inherit;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 826px;
+    height: 464px;
+    background: #7EC2B2;
+}
+
+.fas {
+    font-size: 36px;
+    margin: 20px 0px 5px 10px;
+    position: relative;
+    animation: mymove 8s infinite;
+}
+
+@keyframes mymove {
+    from {left: 13px;}
+    to {left: 750px;}
+}
+
+.footer {
+    border: none;
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    padding-top: 15px;
+}
+        </style>
+    </head>
+
+    <body>
+        <div class="header" >
+            <nav id="menu_bottom">
+                <a class="button" href="/avaleht.html">AVALEHT</a>
+                <a class="button" href="/kaart.html">KAART</a>
+                <a class="button" href="/meist.html">MEIST</a>
+                <a class="button" href="/kontaktid.html">KONTAKTID</a>
+                <a class="button" id="signin" href="/signin.html">LOGI SISSE</a>
+            </nav>
+
+        </div>
+
+        <div class="main">
+            <div class="ourvideo" id="ourvideo1">
+                <a class="button" id="registreeru" href="/registreerimine.html">REGISTREERU KASUTAJAKS</a>
+                <br> <i class="fas fa-dog"></i>
+                <br> <i class="fas fa-otter"></i>
+                <br> <i class="fas fa-hippo"></i>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+            <div class="row" id="rowfooter">
+                <div class="col-6 col-md-4" id="footercenter1"><li>Menüü lingid</li><li>Menüü</li><li>Avaleht</li><li>Kaart</li><li>Meist</li><li>Kontakt</li></div>
+                <div class="col-6 col-md-4" id="footercenter2">Tagasiside vorm vms</div>
+                <div class="col-6 col-md-4" id="footercenter3">Kontaktid vms</div>
+            </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
+</html>

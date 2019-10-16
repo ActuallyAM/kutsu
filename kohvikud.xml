@@ -1,0 +1,62 @@
+<markers>
+<marker id="1" name="Von Krahli Aed" address="Rataskaevu 8 10130 Tallinn" lat="59.437284" lng="24.7405916" type="restoran"/>
+<marker id="2" name="Argentiina restoran" address="Pärnu maantee 37 10119 Tallinn" lat="59.429296" lng="24.7437378" type="restoran"/>
+<marker id="3" name="BabyBack Ribs &amp; BBQ" address="Pärnu maantee 484, 10915 Tallinn" lat="59.369045" lng="24.6370388" type="restoran"/>
+<marker id="4" name="Bogapott" address="Pikk jalg 9 10130 Tallinn" lat="59.4361103" lng="24.7409463" type="restoran"/>
+<marker id="5" name="Restoran Chakra" address="Bremeni käik 1, 10123 Tallinn" lat="59.4393872" lng="24.749388" type="restoran"/>
+<marker id="6" name="Restoran&amp;Kohvik C'est La Vie" address="Suur-Karja 5, 10140 Tallinn" lat="59.4362016" lng="24.7463764" type="restoran"/>
+<marker id="7" name="Bollywood Restaurant" address="Pikk 31, 10133 Tallinn" lat="59.4389492" lng="24.7462915" type="restoran"/>
+<marker id="8" name="Boheem" address="Kopli 18, 10412 Tallinn" lat="59.4418541" lng="24.7319785" type="restoran"/>
+<marker id="9" name="Coccodrillo City" address="Ahtri 9, 10151, 10151 Tallinn" lat="59.4408467" lng="24.7625693" type="restoran"/>
+<marker id="10" name="F-Hoone" address="Telliskivi 60a, 10412 Tallinn" lat="59.4398288" lng="24.7288161" type="restoran"/>
+<marker id="11" name="Gourmet Coffee Kadriorg" address="L. Koidula 13a, 10150 Tallinn" lat="59.4378072" lng="24.7829229" type="restoran"/>
+<marker id="12" name="Hell Hunt" address="Pikk 39, 10133 Tallinn" lat="59.4393388" lng="24.7466787" type="restoran"/>
+<marker id="13" name="Raekoja plats 17, 10146 Tallinn" address="Restoran Kaerajaan" lat="59.4371911" lng="24.7459064" type="restoran"/>
+<marker id="14" name="Kehrwieder Kohvicum" address="Aia 13, 10111 Tallinn" lat="59.4392346" lng="24.7503281" type="restoran"/>
+<marker id="15" name="Kohalik" address="Koidu 82, 10139 Tallinn" lat="59.4243793" lng="24.7323412" type="restoran"/>
+<marker id="16" name="Mamo kohvik Ülemiste" address="Valukoja 8, 11415 Tallinn" lat="59.4202243" lng="24.8047539" type="restoran"/>
+<marker id="17" name="Mamo kohvik Liivalaia" address="Liivalaia 14, 10118 Tallinn" lat="59.4275984" lng="24.7474268" type="restoran"/>
+<marker id="18" name="Kolm Sibulat" address="Telliskivi 2, 10611 Tallinn" lat="59.4333477" lng="24.7181182" type="restoran"/>
+<marker id="19" name="Restoran MOON" address="Võrgu 3, 10415 Tallinn" lat="59.4451428" lng="24.7476292" type="restoran"/>
+<marker id="20" name="Kohvik Must Puudel" address="Müürivahe 20 10140 Tallinn" lat="59.4352548" lng="24.7470346" type="restoran"/>
+<marker id="21" name="Nikolay bar-bufee" address="Gonsiori 10, 10117 Tallinn" lat="59.4348829" lng="24.7611983" type="restoran"/>
+<marker id="22" name="NoKu" address="Pikk 5, 10123 Tallinn" lat="59.4378687" lng="24.7436974" type="restoran"/>
+<marker id="23" name="NOP – kohvik ja väike toidupood" address="J. Köleri 1, 10150 Tallinn" lat="59.4383367" lng="24.7763604" type="restoran"/>
+<marker id="24" name="Olde Hansa" address="Vana turg 1, 10140 Tallinn" lat="59.4366796" lng="24.7457638" type="restoran"/>
+<marker id="25" name="Nõmme pubi" address="Jaama 2, 11621 Tallin" lat="59.3875723" lng="24.6835063" type="restoran"/>
+<marker id="26" name="Rannarestoran PAAT" address="Rohuneeme tee 53, Pringi, 74001 Harju maakond" lat="59.5255021" lng="24.7972674" type="restoran"/>
+<marker id="27" name="Pierre Chocolaterie" address="Vene 6, 10123 Tallinn" lat="59.4371301" lng="24.7475511" type="restoran"/>
+<marker id="28" name="Tabasalu Pizzapoisid" address="Käspre tee 10b, Tabasalu, 76901 Harju maakond" lat="59.4301138" lng="24.5441415" type="restoran"/>
+<marker id="29" name="Kalevi Jahtklubi resto" address="Pirita tee 17, 11911 Tallinn" lat="59.4653239" lng="24.8301293" type="restoran"/>
+<marker id="30" name="Platz Restoran" address="Roseni 7, 10111 Tallinn" lat="59.4385649" lng="24.7553252" type="restoran"/>
+<marker id="31" name="Reval Café" address="Ranna tee 13b, Viimsi, 12111 Harju maakond" lat="59.4972633" lng="24.8280709" type="restoran"/>
+<marker id="32" name="Ribe" address="Vene 7, 10132 Tallinn" lat="59.4375174" lng="24.7468488" type="restoran"/>
+<marker id="33" name="Rucola" address="Ehitajate tee 114a, 13517 Tallinn" lat="59.4143358" lng="24.66009" type="restoran"/>
+<marker id="34" name="Stenhus" address="Pühavaimu 13/15, 10123 Tallinn" lat="59.4386253" lng="24.7474783" type="restoran"/>
+<marker id="35" name="Seiklusjutte Maalt ja Merelt" address="Tartu maantee 44, 10115 Tallinn" lat="59.430641" lng="24.7700655" type="restoran"/>
+<marker id="36" name="Sfäär Resto" address="Mere puiestee 6e, 10111 Tallinn" lat="59.4392945" lng="24.7543101" type="restoran"/>
+<marker id="37" name="Toit's" address="Tartu maantee 7, 10145 Tallinn" lat="59.4347906" lng="24.7597238" type="restoran"/>
+<marker id="38" name="TOPS" address="Soo 15, 10411 Tallinn" lat="59.4456736" lng="24.7387677" type="restoran"/>
+<marker id="39" name="Umami Resto" address="Kalasadama 8, 10415, 10415 Tallinn" lat="59.4457014" lng="24.7494034" type="restoran"/>
+<marker id="40" name="Vapiano Solaris" address="Estonia puiestee 9, 10143 Tallinn" lat="59.4331258" lng="24.7518315" type="restoran"/>
+<marker id="41" name="Vesivärava kohvik" address="Vesivärava 42, 10126 Tallinn" lat="59.434146" lng="24.7806192" type="restoran"/>
+<marker id="42" name="Villa Thai Restaurant" address="J. Vilmsi 6, 10126 Tallinn" lat="59.4381996" lng="24.7745575" type="restoran"/>
+<marker id="43" name="Nāganaga bar/restaurant" address="Uus 25, 10111 Tallinn" lat="59.4403133" lng="24.7494401" type="restoran"/>
+<marker id="44" name="Pererestoran Seller" address="Klooga Maantee 6a, Tabasalu, 76901 Harju maakond" lat="59.4300045" lng="24.5503774" type="restoran"/>
+<marker id="" name="" address="" lat="" lng="" type="restoran"/>
+
+
+<!--         <marker id="1" name="Tiigiveski park " address="Juhkentali 10" lat="59.4275961" lng="24.75669" type="park"/>
+        <marker id="2" name="Politseiaed" address="Kunderi ja Pronksi tänavate nurk" lat="-59.433943" lng="24.764187" type="park"/>
+        <marker id="3" name="Toompark" address="Toompuiestee 24a (Falgi tee poolne ots)" lat="59.4361041" lng="24.733314" type="park"/>
+        <marker id="4" name="Lilleküla" address=" Asula 4c ja Lilleküla raudteejaama vahel (A le Coq Arena kõrval)" lat="59.4213722" lng="24.7298832" type="park"/>
+        <marker id="6" name="Karjamaa park" address="Karjamaa 5g" lat="59.4523793" lng="24.7091216" type="park"/>
+        <marker id="7" name="Tondimõisa park" address="Nõmme tee 107" lat="59.4040019" lng="24.7067847" type="park"/>
+        <marker id="8" name="Cederhilmi park" address="Mooni 30D" lat="59.4264261" lng="24.7084441" type="park"/>
+        <marker id="8" name="Ehitajate tee koerte jalutusplats" address="J. Sütiste tee" lat="59.396303" lng="24.6737186" type="park"/>
+        <marker id="8" name="Tondi Mõisapargi promendaad" address="Siili,11316" lat="59.4136807" lng="24.7074178" type="park"/>
+        <marker id="8" name="Männiku koerte jalutusplats" address="Männiku, 11212" lat="59.4010927" lng="24.7025012" type="park"/>
+        <marker id="8" name="Liikuri koerte mänguväljak" address="Liikuri 56" lat="59.442097" lng="24.8222244" type="park"/> -->
+
+</markers>
+

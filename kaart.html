@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kutsukaasa - Avaleht</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/kutsukaasa.css">
+        <link rel="stylesheet" href="css/kaart.css">
+    </head>
+        <body>
+            <div class="header">
+                <h4><b>KUTSU LEMMIK KAASA!</b></h4>
+                
+                <a class="button" id="signin" href="log_in.html">LOGI SISSE</a>
+                <nav id="menu_bottom">
+                    <a class="button"  href="kutsukaasa.html">Avaleht</a>
+                    <a class="button" href="pargid.html">Kaart</a>
+                    <a class="button" href="meist.html">Meist</a>
+                    <a class="button" href="kontaktid.html">Kontaktid</a>
+                    <a class="button" id="registreeru" href="registreerimine.html">REGISTREERU KASUTAJAKS</a>
+                </nav>
+            </div>>
+
+    <div class="kaart_kohad">
+        <a class="button" href="pargid.html">PARGID</a>
+        <a class="button" href="resto_kohvik.html">RESTORANID JA KOHVIKUD</a>
+        <a class="button" href="loomapoed.html">LOOMAPOED</a>
+        <a class="button" href="kliinikud.html">KLIINIKUD</a>
+        <a class="button" href="keskused.html">KAUBANDUSKESKUSED</a>
+        <a class="button" href="hooldus.html">SALONGID</a>
+    </div>
+
+    <div class="main">
+        <div id="map">
+                <script>
+                        // Initialize and add the map
+                        function initMap() {
+                          // The location of Uluru
+                          var uluru = {lat: 59.436962, lng: 24.753574};
+                          // The map, centered at Uluru
+                          var map = new google.maps.Map(
+                              document.getElementById('map'), {zoom: 12, center: uluru});
+                          // The marker, positioned at Uluru
+                          var marker = new google.maps.Marker({position: uluru, map: map});
+                        }
+                            </script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVkRejf9uMOfet_uWb_N0hf56e4lDascw&callback=initMap">
+                </script>
+
+            
+        </div>
+
+
+    </div>
+
+
+
+    <div class="footer">
+            <div class="container">
+            <div class="row" id="rowfooter">
+                <div class="col-6 col-md-4" id="footercenter1"><nav><ul>
+                        <a href="kutsukaasa.html"><li>Avaleht</li></a>
+                        <a href="kaart.html"><li>Kaart</li></a>
+                        <a href="meist.html"><li>Meist</li></a>
+                        <a href="kontaktid.html"><li>Kontakt</li></a>
+                    </ul></nav></div>
+                <div class="col-6 col-md-4" id="footercenter2">Tagasiside vorm vms</div>
+                <div class="col-6 col-md-4" id="footercenter3">Kontaktid vms</div>
+            </div>
+            </div>
+        </div>
+
+        <script src="js/kutsukaasa.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+   
+    </body>
+
+</html>

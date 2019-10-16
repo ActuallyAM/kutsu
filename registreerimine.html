@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kutsukaasa - Avaleht</title>
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/kutsukaasa.css">
+        <link rel="stylesheet" href="css/registreerimine.css">
+    </head>
+        <body>
+            <div class="header">
+                <h4><b>KUTSU LEMMIK KAASA!</b></h4>
+                
+                <a class="button" id="signin" href="log_in.html">LOGI SISSE</a>
+                <nav id="menu_bottom">
+                    <a class="button"  href="kutsukaasa.html">Avaleht</a>
+                    <a class="button" href="pargid.html">Kaart</a>
+                    <a class="button" href="meist.html">Meist</a>
+                    <a class="button" href="kontaktid.html">Kontaktid</a>
+                    <a class="button" id="registreeru" href="registreerimine.html">REGISTREERU KASUTAJAKS</a>
+                </nav>
+            </div>
+
+        <div class="main">
+                <h4 id="reg_vorm">Registreerimisvorm</h4>
+            <div class="registreerimine">
+
+                <form id="form_paigutus">
+                    <div class="col-md-6" id="marg_col">
+                        <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                            <div class="form-group">
+                                <label class="control-label" for="firstname">Eesnimi</label>
+                                <input class="form-control" id="firstname" type="text" name="firstname" required data-error="Palun kirjuta siia oma eesnimi">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="lastname">Perekonnanimi</label>
+                                <input class="form-control" id="lastname" type="text" name="lastname" required data-error="Palun kirjuta siia oma perekonnanimi">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="email">E-mail</label>
+                                <input class="form-control" id="email" type="email" name="email" required data-error="Palun kirjuta siia oma e-mail">
+                                <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">Liitu uudiskirjaga</label>
+                                      </div>
+                            </div>
+                            <div class="col-md-6" id="marg_col">
+                                    <div class="form-group">
+                                            <label class="control-label" for="username">Kasutajanimi</label>
+                                            <input class="form-control" id="username" type="text" name="username" required data-error="Palun kirjuta siia oma kasutajanimi">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    <div class="form-group">
+                                            <label class="control-label" for="password">Parool</label>
+                                            <input class="form-control" id="password" type="password" name="password" required data-error="Palun kirjuta siia oma parool">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    <div class="form-group">
+                                            <label class="control-label" for="password">Parool</label>
+                                            <input class="form-control" id="password" type="password" name="password" required data-error="Korda oma parooli">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <button id="reg_btn">LOO KASUTAJA</button>
+                            </div>
+
+                            
+                          </form>
+
+            </div>
+
+        </div>
+
+
+
+<div id="kiisu_img">
+
+    <img src="http://localhost:8880/kutsu/Pictures/reg_kiisu.jpg" alt="kiisu" width="500" height="500">
+
+</div>
+
+<div class="footer">
+            
+        <div class="container">
+        <div class="row" id="rowfooter">
+                
+            <div class="col-md-4 col-sm-12" id="footercenter1"><nav><ul>
+                    <a href="kutsukaasa.html"><li>Avaleht</li></a>
+                    <a href="kaart.html"><li>Kaart</li></a>
+                    <a href="meist.html"><li>Meist</li></a>
+                    <a href="kontaktid.html"><li>Kontakt</li></a>
+                    <a href="log_in.html"><li>Logi sisse</li></a>
+                    <a href="registreerimine.html"><li>Loo kasutaja</li></a>
+                </ul></nav></div>
+            <div class="col-md-4 col-sm-12"  id="footercenter2"><nav><ul>
+                    <a href="pargid.html"><li>Pargid</li></a>
+                    <a href="kliinikud.html"><li>Kliinikud</li></a>
+                    <a href="resto_kohvik.html"><li>Restoranid ja kohvikud</li></a>
+                    <a href="loomapoed.html"><li>Loomapoed</li></a>
+                    <a href="hooldus.html"><li>Loomade hooldus</li></a>
+                    <a href="keskused.html"><li>Keskused</li></a>
+                </ul></nav></div>
+            <div class="col-md-4 col-sm-12" id="footercenter3">Võtke meiega ühendust, kui teil on soov lisada juurde kohti või lihtsalt tagasisidet meile anda
+                    <a href="kontaktid.html"><nav><ul><li>Võtke ühendust</li></a></ul></nav>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+
+            <script src="js/kutsukaasa.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </body>
+    
+    </html>

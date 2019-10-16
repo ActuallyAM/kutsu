@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kutsukaasa - Avaleht</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/kutsukaasa.css">
+        <link rel="stylesheet" href="css/kaart.css">
+        <link rel="stylesheet" href="css/loomapoed.css">
+    </head>
+        <body>
+          <div class="header">
+            <h4><b>KUTSU LEMMIK KAASA!</b></h4>
+            
+            <a class="button" id="signin" href="log_in.html">LOGI SISSE</a>
+            <nav id="menu_bottom">
+                <a class="button"  href="kutsukaasa.html">Avaleht</a>
+                <a class="button" href="pargid.html">Kaart</a>
+                <a class="button" href="meist.html">Meist</a>
+                <a class="button" href="kontaktid.html">Kontaktid</a>
+                <a class="button" id="registreeru" href="registreerimine.html">REGISTREERU KASUTAJAKS</a>
+            </nav>
+        </div>
+
+    <div class="kaart_kohad">
+        <a class="button" href="pargid.html">PARGID</a>
+        <a class="button" href="resto_kohvik.html">RESTORANID JA KOHVIKUD</a>
+        <a class="button" id="loomap" href="loomapoed.html">LOOMAPOED</a>
+        <a class="button" href="kliinikud.html">KLIINIKUD</a>
+        <a class="button" href="keskused.html">KESKUSED</a>
+        <a class="button" href="hooldus.html">SALONGID</a>
+    </div>
+
+    <div class="main">
+        <div id="map">
+    <script>
+      var customLabel = {
+        kliinik: {
+          label: 'K'
+        },
+      };
+
+        function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: new google.maps.LatLng(59.4341056,24.7380888,13),
+          zoom: 12
+        });
+        var infoWindow = new google.maps.InfoWindow;
+
+          // Change this depending on the name of your PHP or XML file
+          downloadUrl('http://localhost:8880/kutsu/loomapoed.xml', function(data) {
+            var xml = data.responseXML;
+            var markers = xml.documentElement.getElementsByTagName('marker');
+            Array.prototype.forEach.call(markers, function(markerElem) {
+              var id = markerElem.getAttribute('id');
+              var name = markerElem.getAttribute('name');
+              var address = markerElem.getAttribute('address');
+              var type = markerElem.getAttribute('type');
+              var point = new google.maps.LatLng(
+                  parseFloat(markerElem.getAttribute('lat')),
+                  parseFloat(markerElem.getAttribute('lng')));
+
+              var infowincontent = document.createElement('div');
+              var strong = document.createElement('strong');
+              strong.textContent = name
+              infowincontent.appendChild(strong);
+              infowincontent.appendChild(document.createElement('br'));
+
+              var text = document.createElement('text');
+              text.textContent = address
+              infowincontent.appendChild(text);
+              var icon = customLabel[type] || {};
+              var marker = new google.maps.Marker({
+                map: map,
+                position: point,
+                icon: image
+              });
+              marker.addListener('click', function() {
+                infoWindow.setContent(infowincontent);
+                infoWindow.open(map, marker);
+              });
+            });
+          });
+        }
+
+        var image = 'http://localhost:8880/kutsu/Pictures/pet-shop1.png';
+
+      function downloadUrl(url, callback) {
+        var request = window.ActiveXObject ?
+            new ActiveXObject('Microsoft.XMLHTTP') :
+            new XMLHttpRequest;
+
+        request.onreadystatechange = function() {
+          if (request.readyState == 4) {
+            request.onreadystatechange = doNothing;
+            callback(request, request.status);
+          }
+        };
+
+        request.open('GET', url, true);
+        request.send(null);
+      }
+
+      function doNothing() {}
+    </script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVkRejf9uMOfet_uWb_N0hf56e4lDascw&callback=initMap">
+                </script>  
+        </div>
+    </div>
+  
+    <h4 id="koha_tutvustus">Leidsid endale sobiva koha ja soovid rohkem infot, siis klikka sobival poel</h4>
+
+    <div class="pet_main">
+  <div id="nav_bar">
+      <a class=" col-sm-3" href="#content1">KIKA</a>
+      <a class=" col-sm-3" href="#content2">PetCity</a>
+      <a class=" col-sm-3" href="#content3">Caramira</a>
+      <a class=" col-sm-3" href="#content4">MyPet</a>
+  </div>
+  <div id="nav_bar">
+      <a class=" col-sm-3" href="#content5">Zoomaailm</a>
+      <a class=" col-sm-3" href="#content6">Urr &amp; nurr</a>
+      <a class=" col-sm-3" href="#content7">Bosse</a>
+      <a class=" col-sm-3" href="#content8">Muud</a>
+  </div>
+
+  
+  <div id="content1" class="toggle" style="display:none">
+    <h5>Kika - lemmikloomatarvete pood</h5>
+    Kika loomapoodide kohta saad lähemalt uurida siit: <a href="https://www.kika.ee" target="_blank">Kika kodulehelt</a>
+  </div> 
+  <div id="content2" class="toggle" style="display:none">
+      <h5>PetCity - Suurim lemmikloomapood ja kaasaegne loomakliinik</h5>
+    PetCity loomapoodide kohta saad lähemalt uurida siit: <a href="https://www.petcity.ee/" target="_blank">PetCity kodulehelt</a>
+  </div>
+  <div id="content3" class="toggle" style="display:none">
+      <h5>Caramira - Õnneliku Lemmiklooma Pood</h5>
+      Caramira loomapoodide kohta saad lähemalt uurida siit: <a href="https://www.caramira.ee/" target="_blank">Caramira kodulehelt</a>
+  </div>
+  <div id="content4" class="toggle" style="display:none">
+      <h5>MyPet Lemmikloomapood ja lemmmikloomatarbed</h5>
+        MyPet loomapoodide kohta saad lähemalt uurida siit: <a href="https://www.mypet.ee/" target="_blank">MyPet kodulehelt</a>
+  </div>
+  <div id="content5" class="toggle" style="display:none">
+      <h5>Zoomaailm - Lemmikloomad ja Kalastustarbed</h5>
+      Zoomaailm loomapoodide kohta saad lähemalt uurida siit: <a href="https://www.zoomaailm.ee/" target="_blank">Zoomaailm kodulehelt</a>
+  </div> 
+  <div id="content6" class="toggle" style="display:none">
+      <h5>Urr &amp; Nurr - Lemmikloomapood</h5>
+      Urr &amp; Nurr loomapoodide kohta saad lähemalt uurida siit: <a href="https://urrnurr.ee/" target="_blank">Urr &amp; Nurr kodulehelt</a>
+  </div>
+  <div id="content7" class="toggle" style="display:none">
+      <h5>Bosse - Lemmikloomapood</h5>
+      Bosse loomapoodide kohta saad lähemalt uurida siit: <a href="https://www.bosse.ee/" target="_blank">Bosse kodulehelt</a>
+  </div>
+  <div id="content8" class="toggle" style="display:none">
+      <h5>Palju teisi erinevaid lemmikloomapoode</h5>
+      Pets24 - Lemmikloomakaubad - koertele, kassidele ja teistele: <a href="https://www.pets24.ee/" target="_blank">Pets24 kodulehelt</a><hr>
+      Akvaariumid.eu - Kalatarvete pood: <a href="https://www.akvaariumid.eu/" target="_blank">Akvaariumid.eu kodulehelt</a><hr>
+      Valgekihv - Kvaliteetne koeratoit ja kassitoit: <a href="https://valgekihv.ee/" target="_blank">Valgekihv kodulehelt</a><hr>
+      Royalpetshop - Lemmikloomapood koerale ja kassile: <a href="https://www.royalpetshop.ee/" target="_blank">Royalpetshop kodulehelt</a><hr>
+      Nostrem - Kvaliteetne toit koerale: <a href="https://www.nostrem.ee/" target="_blank">Nostrem kodulehelt</a><hr>
+      Petmarket - Lemmikloomale kõik vajalik ühest kohast: <a href="http://www.petmarket.ee/" target="_blank">Petmarket kodulehelt</a><hr>
+      Internetshop - kõik mida soovib teie lemmikloom: <a href="http://www.internetshop.ee/" target="_blank">Internetshop kodulehelt</a><hr>
+      Basiilo - kõik lemmikloomadele: <a href="https://www.basilio.ee/" target="_blank">Basiilo kodulehelt</a><hr>
+      Penner - loomapoe kohta saad lähemalt uurida siit: <a href="https://www.penner.ee/" target="_blank">Penner kodulehelt</a><hr>
+      Lemmiklooma tarbed - loomale tarvilikud asjad siit: <a href="http://www.lemmikloomatarbed.ee/" target="_blank">Lemmiklooma tarvete kodulehelt</a><hr>
+      Solidis-dog - Koera riided ja kotid siit: <a href="https://www.solidis-dog.com/" target="_blank">Solodis dog kodulehelt</a><hr>
+      Loomalausuja - Roheline pood lemmikule:<a href="https://loomalausuja.ee/" target="_blank">Loomalausuja kodulehelt</a><hr>
+      Koertekeskus - loomapoe kohta saad lähemalt uurida siit: <a href="https://koertekeskus.ee/" target="_blank">Koertekeskus kodulehelt</a><hr>
+      Smartdog - loomapoe kohta saad lähemalt uurida siit: <a href="https://epood.smartdog.ee/" target="_blank">Smartdog kodulehelt</a><hr>
+  </div>
+</div>
+
+
+<div class="footer">
+            
+    <div class="container">
+    <div class="row" id="rowfooter">
+            
+        <div class="col-md-4 col-sm-12" id="footercenter1"><nav><ul>
+                <a href="kutsukaasa.html"><li>Avaleht</li></a>
+                <a href="kaart.html"><li>Kaart</li></a>
+                <a href="meist.html"><li>Meist</li></a>
+                <a href="kontaktid.html"><li>Kontakt</li></a>
+                <a href="log_in.html"><li>Logi sisse</li></a>
+                <a href="registreerimine.html"><li>Loo kasutaja</li></a>
+            </ul></nav></div>
+        <div class="col-md-4 col-sm-12"  id="footercenter2"><nav><ul>
+                <a href="pargid.html"><li>Pargid</li></a>
+                <a href="kliinikud.html"><li>Kliinikud</li></a>
+                <a href="resto_kohvik.html"><li>Restoranid ja kohvikud</li></a>
+                <a href="loomapoed.html"><li>Loomapoed</li></a>
+                <a href="hooldus.html"><li>Loomade hooldus</li></a>
+                <a href="keskused.html"><li>Keskused</li></a>
+            </ul></nav></div>
+        <div class="col-md-4 col-sm-12" id="footercenter3">Võtke meiega ühendust, kui teil on soov lisada juurde kohti või lihtsalt tagasisidet meile anda
+                <a href="kontaktid.html"><nav><ul><li>Võtke ühendust</li></a></ul></nav>
+        </div>
+    </div>
+    </div>
+    
+</div>
+
+        <script src="js/kutsukaasa.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script>$("#nav_bar a").click(function(e){
+          e.preventDefault();
+          $(".toggle").hide();
+          var toShow = $(this).attr('href');
+          $(toShow).show();
+        });</script>
+   
+    </body>
+
+</html>
